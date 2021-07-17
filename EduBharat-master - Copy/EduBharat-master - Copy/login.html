@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr" style=" display: grid;
+height: 100%;
+width: 100%;
+place-items: center;
+background-color: -webkit-linear-gradient(left, #a445b2, #845BB3);
+background-image: url('images/bground.png');
+background-size:1000px;">
+  <head>
+    <meta charset="utf-8">
+   
+    <link rel="stylesheet" href="eb2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title-text">
+
+</div>
+<div class="form-container">
+        <div class="slide-controls">
+          <input type="button" name="slide" id="login" checked>
+          <input type="button" name="slide" id="signup">
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Signup</label>
+          <div class="slider-tab">
+</div>
+</div>
+<div class="form-inner">
+          <form action="login.php" method="post" class="login">
+            <div class="field">
+               <input type="text" placeholder="Email Address" name="emailadd" required>
+            </div><br>
+<div class="field">
+              <input type="password" placeholder="Password" name="password" required><br><br>
+              
+              <select name="role" id="role">
+                 <option value="teacher">Teacher</option>
+                  <option value="student">Student</option>
+                  
+                  </select>
+            </div><br><br><br>
+            
+<div class="pass-link">
+<a href="#">Forgot password?</a></div>
+<div class="field btn">
+              <div class="btn-layer">
+</div>
+<input type="submit" value="Login">
+            </div>
+<div class="signup-link">
+Not a member? <a href="">Signup now</a></div>
+</form>
+
+<div class="btn-group">
+  <div class="hello" >
+  <a href="teacher.html" >
+    
+   <button>As a Teacher</button>
+     </a>
+
+     <a href="student.html">
+  <button>As a Student</button>
+  </a>
+  <a href="institute.html" >
+  <button>As an Institution</button>
+</a>
+</div>
+</div>
+          
+           
+        <script>
+      const loginText = document.querySelector(".title-text .login");
+      const loginForm = document.querySelector("form.login");
+      const loginBtn = document.querySelector("label.login");
+      const signupBtn = document.querySelector("label.signup");
+      const signupLink = document.querySelector("form .signup-link a");
+      signupBtn.onclick = (()=>{
+        loginForm.style.marginLeft = "-50%";
+        loginText.style.marginLeft = "-50%";
+      });
+      loginBtn.onclick = (()=>{
+        loginForm.style.marginLeft = "0%";
+        loginText.style.marginLeft = "0%";
+      });
+      signupLink.onclick = (()=>{
+        signupBtn.click();
+        return false;
+      });
+    </script>
+
+  </body>
+</html>

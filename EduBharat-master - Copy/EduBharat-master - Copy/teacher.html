@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr" style=" display: grid;
+height: 100%;
+width: 100%;
+place-items: center;
+background-color: -webkit-linear-gradient(left, #a445b2, #845BB3);
+background-image: url('images/bground.png');
+background-size:100% 100%;">
+  <head>
+    <meta charset="utf-8">
+   
+    <link rel="stylesheet" href="eb2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body>
+   <div class="wrapper">
+    <div class="form-inner">
+          <div class="signup">
+  <form action="teachersignup.php" method ="post" class="signup">
+            
+              <label for="firstName">First Name</label><br>
+              <input type="text" placeholder="First Name" id=" firstName" name="firstName"size="70" required><br><br>
+        
+            <label for="lastName">Last Name</label><br>
+              <input type="text" placeholder="Last Name" id="lastName" name="lastName" size="70" required><br><br>
+            
+  
+              <label for="age">Age</label><br>
+              <input type="text" placeholder="Age" id="age" name="age" size="70" required><br><br>
+               
+            
+               <p>Gender: </p>
+              <input type="radio" id="male" name="gen" value="male" required>
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gen" value="female" required>
+              <label for="female">Female</label>
+              <input type="radio" id="others" name="gen" value="others" required>
+              <label for="others">Others</label><br><br>
+              
+
+              <label for="qual">Qualifications</label><br>
+              <input type="text" placeholder="Qualifications" id="qual" name="qual" size="70" required><br><br>
+            
+
+              <label for="phno">Phone Number</label><br>
+             <input type="text" placeholder="Phone Number" id="phno" name="phno" size="70" required><br><br>
+    
+               <label for="course">Courses You are Interested In Taking</label><br>
+              <select name="course" id="courses">
+              <option value="physics">Physics</option>
+             <option value="chemistry">Chemistry</option>
+             <option value="maths">Maths</option>
+             
+             </select><br><br>
+            
+
+     
+    
+              <label for="teachexp">Past Teaching Experience (if any)</label><br>
+              <select name="pte" id="course">
+              <option value="yes">Yes</option>
+             <option value="no">No</option>
+             
+             </select><br><br>
+            
+
+              <label for="emailadd">Email Address</label><br>
+              <input type="text" placeholder="Email Address" id="emailadd" name="emailadd" size="70" required><br><br>
+    
+
+              <label for="pass">Password</label><br>
+              <input type="password" placeholder="Password"  id="pass"name="pass" size="70" required>
+    
+
+<div class="field btn">
+              <div class="btn-layer">
+</div>
+<input type="submit" value="Signup">
+            </div>
+</form>
+</div>
+</div>
+</div>
+</body>
