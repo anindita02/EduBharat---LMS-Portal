@@ -1,1 +1,4 @@
 # EduBharat---LMS-Portal
+
+A basic everyday LMS just establishes a connection between the user and the content. But with Edu-Bharat, we aim at bringing the user in contact with both the content creator and the content they are creating, through various channels of collaborative and interactive learning which enable transparency, fraternity, a sense of participation and support. We aim at making our portal a hub for all our users' educational needs, something which other portals do not boast. Edu-Bharat has been specifically made for the socially and economically deprived communities. It is a web based application aimed to make mainstream education reachable to each and every child of this country.It also seeks to increase the literacy rate of this country and promote free education to the poverty-stricken community through e-learning. Our initiative is a stride towards bringing down illiteracy rates and promoting education in every economically weak household. 
+
